@@ -1700,16 +1700,10 @@ header {
 }
 
 .header-wrapper {
-    padding-left: 240px;
+    padding-left: 0;
     -webkit-transition: padding-left .3s ease-in;
     -moz-transition: padding-left .3s ease-in;
     transition: padding-left .3s ease-in;
-}
-
-@media screen and (max-width:1429px) {
-    .header-wrapper {
-        padding-left: 0;
-    }
 }
 
 .header-wrapper .header-title {
@@ -2270,7 +2264,7 @@ html.touch #side-nav nav dl dt {
     float: left;
     height: 100%;
     padding-bottom: 100px;
-    padding-left: 240px;
+    padding-left: 0;
     width: 100%;
     -webkit-transition: padding-left .3s ease-in;
     -moz-transition: padding-left .3s ease-in;
@@ -2278,12 +2272,6 @@ html.touch #side-nav nav dl dt {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-
-@media screen and (max-width:1429px) {
-    #grid-cont {
-        padding-left: 0;
-    }
 }
 
 @media screen and (max-width:767px) {
