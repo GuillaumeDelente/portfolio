@@ -1781,18 +1781,6 @@ header {
     width: .4em;
 }
 
-@media screen and (max-width:767px) {
-    .noninitial-chapter .header-wrapper .chapter-title:before,.header-wrapper.qp-ui-peekaboo.qp-ui-peekaboo-active .chapter-title:before {
-        content: none;
-    }
-}
-
-@media screen and (max-width:767px) {
-    .noninitial-chapter .header-wrapper .section-title,.header-wrapper.qp-ui-peekaboo.qp-ui-peekaboo-active .section-title {
-        display: none;
-    }
-}
-
 .hamburger-button,.search-button {
     background: transparent center center no-repeat;
     background-size: 24px 24px;
