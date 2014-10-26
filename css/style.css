@@ -1208,6 +1208,7 @@ section.moduleC1 .figure-group .figure-row figure figcaption {
 
 .moduleA1 .figure-group .figure-row figcaption .caption-title,.moduleA2 .figure-group .figure-row figcaption .caption-title,.moduleB1 .figure-group .figure-row figcaption .caption-title,.moduleC1 .figure-group .figure-row figcaption .caption-title,.moduleD1 .figure-group .figure-row figcaption .caption-title,.moduleE1 .figure-group .figure-row figcaption .caption-title,.moduleF1 .figure-group .figure-row figcaption .caption-title {
     font-weight: 500;
+    margin-bottom: 25px;
 }
 
 @media screen and (max-width:767px) {
@@ -1841,6 +1842,34 @@ footer {
     transition: padding-left .2s cubic-bezier(.4,0,.2,1);
 }
 
+footer ul {
+    margin: 0;
+    padding: 28px 0 0;
+    text-align: right
+}
+
+footer a img { 
+    display: inline-block; 
+    width: 40px; 
+    height: 40px; 
+}
+
+footer a img.twitter { width: 49px; }
+
+
+footer li {
+    display: inline;
+    line-height: 2.19;
+    list-style: none;
+    margin-right: 40px;
+}
+
+@media screen and (max-width:767px) {
+    footer li {
+        margin-right: 20px;
+    }
+}
+
 footer .footer-L {
     height: 100%;
     left: 0;
@@ -2027,6 +2056,18 @@ footer .footer-grid .footer-grid-R .footer-text span {
 @media screen and (max-width:360px) {
     footer {
         height: 80px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    footer ul {
+        padding: 25px 0 0;
+    }
+}
+
+@media screen and (max-width:360px) {
+    footer ul {
+        padding: 18px 0 0;
     }
 }
 
