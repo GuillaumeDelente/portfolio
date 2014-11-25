@@ -1005,7 +1005,7 @@ section.moduleC1 .figure-group .figure-row figure figcaption {
     color: #212121;
     display: inline-block;
     float: left;
-    font-size: 13px;
+    font-size: 15px;
     -webkit-font-smoothing: antialiased;
     letter-spacing: .1px;
     line-height: 24px;
@@ -1019,7 +1019,7 @@ section.moduleC1 .figure-group .figure-row figure figcaption {
 
 @media screen and (max-width:1159px) {
     .moduleA1 .module-body,.moduleA2 .module-body,.moduleB1 .module-body,.moduleC1 .module-body,.moduleD1 .module-body,.moduleE1 .module-body,.moduleF1 .module-body {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -1105,7 +1105,7 @@ section.moduleC1 .figure-group .figure-row figure figcaption {
     top: 0;
 }
 
-.moduleA1 .figure-group .figure-row figure img,.moduleA2 .figure-group .figure-row figure img,.moduleB1 .figure-group .figure-row figure img,.moduleC1 .figure-group .figure-row figure img,.moduleD1 .figure-group .figure-row figure img,.moduleE1 .figure-group .figure-row figure img,.moduleF1 .figure-group .figure-row figure img {
+.moduleA1 .figure-group .figure-row figure img,.moduleA2 .figure-group .figure-row figure img,.moduleB1 .figure-group .figure-row figure img,.moduleC1 .figure-group .figure-row figure .media img,.moduleD1 .figure-group .figure-row figure img,.moduleE1 .figure-group .figure-row figure img,.moduleF1 .figure-group .figure-row figure img {
     display: block;
     margin-bottom: 0;
     width: 100%;
@@ -1209,6 +1209,11 @@ section.moduleC1 .figure-group .figure-row figure figcaption {
 .moduleA1 .figure-group .figure-row figcaption .caption-title,.moduleA2 .figure-group .figure-row figcaption .caption-title,.moduleB1 .figure-group .figure-row figcaption .caption-title,.moduleC1 .figure-group .figure-row figcaption .caption-title,.moduleD1 .figure-group .figure-row figcaption .caption-title,.moduleE1 .figure-group .figure-row figcaption .caption-title,.moduleF1 .figure-group .figure-row figcaption .caption-title {
     font-weight: 500;
     margin-bottom: 25px;
+}
+
+figcaption .cation-title-reduced-margin {
+    font-weight: 500;
+    margin-bottom: 17px;
 }
 
 @media screen and (max-width:767px) {
@@ -2547,6 +2552,16 @@ html.touch #side-nav nav dl dt {
 .chapter .chapter-content figure figcaption .caption-title {
     font-weight: 500;
     color: #212121;
+}
+
+.caption-title-icon {
+    height:24px;
+    margin-left:6px;
+    width:24px;
+}
+
+.caption-title-title {
+    float:left;
 }
 
 .chapter .chapter-content>figure {
