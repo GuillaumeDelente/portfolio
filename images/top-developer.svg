@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 1 + Path 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Rectangle-1-+-Path-1" sketch:type="MSLayerGroup" fill="#45B5C9">
+            <rect id="Rectangle-1" sketch:type="MSShapeGroup" transform="translate(12.027907, 6.097448) rotate(45.000000) translate(-12.027907, -6.097448) " x="7.70232558" y="1.78190255" width="8.65116279" height="8.63109049"></rect>
+            <path d="M3.61441884,8.40457639 L-0.0143350259,12.0349117 L11.9992369,23.9723753 L24.0263808,12.0143561 L20.4263808,8.43662993 L12.0062137,18.0141386 L3.61441884,8.40457639 Z" id="Path-1" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
