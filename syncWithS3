@@ -1,0 +1,2 @@
+#!/bin/bash
+s3cmd sync --delete-removed --acl-public --exclude 'syncWithS3' --rexclude '~$' --rexclude '^\.'  --rexclude '\.psd$' ./ s3://guillaumedelente.com/
